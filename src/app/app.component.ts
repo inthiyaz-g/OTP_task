@@ -24,6 +24,7 @@ export class AppComponent {
     // @ViewChild('inp2') inp2 : ElementRef;
     ngAfterViewInit() {
       this.inp1.nativeElement.focus();
+      // this.inp1.nativeElement.style.borderBottomColor = "#4287f5"
     }
   title = 'otptask';
   otpForm = new FormGroup({
@@ -50,7 +51,7 @@ export class AppComponent {
         }
        else if(data == 3)
         {
-          debugger
+          
           this.inp4.nativeElement.focus();
           this.inp3.nativeElement.disabled = true
   

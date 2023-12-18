@@ -176,14 +176,16 @@
     }
   }
 </style>
+<div>
+  <h3 style="text-align: center;">Enter OTP</h3>
 
+</div>
   <div class="makecenter">
-    <h3>OTP</h3><br>
 <form [formGroup]="otpForm">
-  <input type="number" #inp1 formControlName="text1" maxlength="1" (keyup)="onTextChange($event,1)">
-  <input type="number" #inp2 (keyup)="onTextChange($event,2)" maxlength="1">
-  <input type="number" #inp3 (keyup)="onTextChange($event,3)" maxlength="1">
-  <input type="text" #inp4 formControlName="text4" (keyup)="onTextChange($event,4)">
+  <input class="inputt" type="number" #inp1 formControlName="text1" maxlength="1" (keyup)="onTextChange($event,1)">
+  <input class="inputt" type="number" #inp2 (keyup)="onTextChange($event,2)" maxlength="1">
+  <input class="inputt"type="number" #inp3 (keyup)="onTextChange($event,3)" maxlength="1">
+  <input class="inputt" type="text" #inp4 formControlName="text4" (keyup)="onTextChange($event,4)">
 </form>
  
   </div>

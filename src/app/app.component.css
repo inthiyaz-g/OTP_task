@@ -3,3 +3,26 @@
     justify-content: center;
     display: flex;
 }
+.inputt  {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin: 10px;
+    width: 30px;
+    text-align: center;
+    align-items: center;
+    /* border-color: red; */
+    outline: none;
+    -moz-appearance: textfield;
+    font-size: 45px;
+}
+.inputt:focus{
+     border-top: 0px; 
+    border-color:#4287f5;
+}
+.inputt::-webkit-inner-spin-button,
+.inputt::-webkit-outer-spin-button {
+  /* Remove the default arrow styling in WebKit browsers */
+  -webkit-appearance: none;
+  margin: 0;
+}
